@@ -8,7 +8,7 @@ const QUASAR_EXTRAS_PATH = '@quasar/extras';
 const QUASAR_ANIMATION_CSS_PATH = `${QUASAR_EXTRAS_PATH}/animate`;
 const QUASAR_FLEX_ADDON_PATH = 'quasar/src/css/flex-addon.sass';
 const QUASAR_VARIABLES_PATH = 'quasar/src/css/variables.sass';
-const QUASAR_VARIABLES_OVERRIDES_PATH = '~/assets/scss/quasar.variables.sass';
+const QUASAR_VARIABLES_OVERRIDES_PATH = '~/assets/scss/quasar.variables.scss';
 
 const QUASAR_STYLUS_FILES = [
   'quasar/dist/quasar.sass',
