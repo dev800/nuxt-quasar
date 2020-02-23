@@ -49,5 +49,5 @@ Vue.use(Quasar, {
 <% } %>
 
 <% if (options.supportIE) { %>
-import 'quasar/dist/quasar.ie.polyfills.js';
+import 'quasar/src/ie-compat/ie.js';
 <% } %>

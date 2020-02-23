@@ -11,7 +11,7 @@ const QUASAR_VARIABLES_PATH = 'quasar/src/css/variables.sass';
 const QUASAR_VARIABLES_OVERRIDES_PATH = '~/assets/scss/quasar.variables.scss';
 
 const QUASAR_STYLUS_FILES = [
-  'quasar/dist/quasar.sass',
+  'quasar/src/css/index.sass',
   QUASAR_VARIABLES_PATH,
   QUASAR_VARIABLES_OVERRIDES_PATH,
 ];
