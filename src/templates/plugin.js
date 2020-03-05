@@ -19,12 +19,6 @@ import Quasar, {
       .join(',\n') + ',\n' %>
 } from 'quasar/src/index.esm';
 
-<% if (framework.iconSet) { %>
-import iconSet from 'quasar/icon-set/<%= framework.iconSet %>.js';
-<% } else { %>
-import iconSet from 'quasar/icon-set/material-icons.js';
-<% } %>
-
 Vue.use(Quasar, {
   <% if (config) { %>
   config: <%= JSON.stringify(config, null, '\t') %>,
@@ -44,7 +38,6 @@ Vue.use(Quasar, {
 <%= plugins.map(s => '\t\t' + s).join(',\n') + ',\n' %>
   },
   <% } %>
-  iconSet,
 });
 <% } %>
 
